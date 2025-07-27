@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!--your code goes here-->
+    <div class="container">
+      <!-- header -->
+      <header id="mainheader">
+        <div class="row no-gutters">
+          <!-- Image -->
+          <div class="col-lg-5 col-md-4">
+            <img src="./image/dp.jpg" alt="" class="img-thumbnail" />
+          </div>
+
+          <!-- Menu -->
+          <div class="col-lg-7 col-md-8">
+            <div class="d-flex flex-column bg-dark text-light">
+              <div
+                class="d-flex flex-row align-items-center justify-content-around p-5"
+              >
+                <h1>Himanshu Mishra</h1>
+                <div>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                </div>
+                <div>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <div>
+                  <a href=""><i class="fab fa-github"></i></a>
+                </div>
+                <div>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <h2 class="p-5 mb-4">Full Stack Developer</h2>
+              <div class="d-flex flex-row text-center">
+                <div
+                  class="port-div w-25 p-5"
+                  style="background-color: #27445d"
+                  data-toggle="collapse"
+                  data-target="#home"
+                >
+                  <i class="fa fa-home d-block"></i>Home
+                </div>
+                <div
+                  class="port-div w-25 p-5"
+                  style="background-color: #58a0c8"
+                  data-toggle="collapse"
+                  data-target="#resume"
+                >
+                  <i class="fa fa-graduation-cap d-block"></i>Resume
+                </div>
+                <div
+                  class="port-div w-25 p-5"
+                  style="background-color: #497d74"
+                  data-toggle="collapse"
+                  data-target="#work"
+                >
+                  <i class="fa fa-folder d-block"></i>Work-Ex
+                </div>
+                <div
+                  class="port-div w-25 p-5"
+                  style="background-color: #71bbb2"
+                  data-toggle="collapse"
+                  data-target="#contact"
+                >
+                  <i class="fa fa-envelope d-block"></i>Contact
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- home -->
+      <div
+        id="home"
+        style="background-color: #27445d"
+        class="text-light collapse show"
+      >
+        <h1 class="display-4 text-center text-light pt-4">HOME</h1>
+        <hr class="bg-danger border-2 border-top border-danger my-4" />
+        <p class="lead text-justify text-light pl-5 pr-5">
+          My Name is Himanshu Mishra. I am from Ramgarh Jharkhand. Currently, I
+          am pursuing B.Tech from Greater Noida Institute of Technnology. I have
+          done my Intermediate and Matriculation from DAV Public School. During
+          my academic journey, I developed a strong interest in web development
+          and programming.
+        </p>
+        <p class="lead text-justify text-light pl-5 pr-5">
+          I have worked on several projects including a Student Management
+          System using Python and MySQL, and an Amazon and Spotify clone using
+          HTML and CSS, which helped me gain hands-on experience with frontend
+          and backend development.
+        </p>
+        <p class="lead text-justify text-light pl-5 pr-5">
+          I am also familiar with core Java, C programming, Bootstrap, and SQL
+          CRUD operations. I consider myself a quick learner, adaptable to new
+          technologies, and always eager to improve my skills.
+        </p>
+        <p class="lead text-justify text-light pl-5 pr-5 pb-5">
+          I'm currently looking for an opportunity where I can apply my skills
+          in a real-world environment, contribute to team goals, and continue
+          growing as a developer.
+        </p>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">HTML</h4>
+                <i class="fa-brands fa-html5"></i>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 100%">100%</div>
+                </div>
+                <p class="card-text">
+                  Proficient in structuring and organizing web content using
+                  semantic HTML5 elements. Skilled at building accessible,
+                  SEO-friendly, and responsive layouts. Experienced in creating
+                  clean code for static websites, integrating multimedia, and
+                  optimizing markup for performance and maintainability.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">CSS</h4>
+                <i class="fa-brands fa-css3"></i>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 100%">100%</div>
+                </div>
+                <p class="card-text">
+                  Proficient in CSS3 for designing responsive and visually
+                  appealing websites. Skilled in Flexbox, Grid, media queries,
+                  and animations. Experienced with Bootstrap and ensuring
+                  cross-browser compatibility and consistent UI across different
+                  screen sizes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">JAVASCRIPT</h4>
+                <i class="fa-brands fa-js"></i>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%">70%</div>
+                </div>
+                <p class="card-text">
+                  Basic knowledge of JavaScript for adding interactivity to web
+                  pages. Familiar with variables, data types, functions, loops,
+                  conditionals, and basic DOM manipulation. Able to handle
+                  simple events and write scripts for dynamic content and user
+                  interactions on websites.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">BOOTSTRAP</h4>
+                <i class="fa-brands fa-bootstrap"></i>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%">70%</div>
+                </div>
+                <p class="card-text">
+                  Familiar with Bootstrap framework for building responsive and
+                  mobile-first websites. Skilled in using pre-built components,
+                  grid system, and utility classes to create clean layouts
+                  quickly. Able to customize themes and ensure consistency in
+                  design across different screen sizes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">PYTHON</h4>
+                <i class="fa-brands fa-python"></i>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 60%">60%</div>
+                </div>
+                <p class="card-text">
+                  Basic understanding of Python programming, including
+                  variables, data types, functions, loops, and conditionals.
+                  Familiar with writing simple scripts, performing basic file
+                  handling, and using built-in modules. Able to solve problems
+                  using clear and readable code structures.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">JAVA</h4>
+                <i class="fab fa-java"></i>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%">70%</div>
+                </div>
+                <p class="card-text">
+                  Good understanding of Core Java concepts such as OOP
+                  principles, data types, loops, conditionals, arrays, and
+                  exception handling. Familiar with classes, objects,
+                  inheritance, polymorphism, and basic file handling. Able to
+                  write simple programs and solve logical problems.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">MYSQL</h4>
+                <i class="fas fa-database"></i>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 60%">60%</div>
+                </div>
+                <p class="card-text">
+                  Proficient in MySQL with hands-on experience in performing
+                  CRUD operations using SQL queries. Skilled in creating and
+                  managing databases, writing SELECT, INSERT, UPDATE, DELETE
+                  statements, and using JOINs for relational data handling. Able
+                  to build and query structured datasets efficiently.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">C PROGRAMMING</h4>
+                <i class="fa-solid fa-c"></i>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 90%">90%</div>
+                </div>
+                <p class="card-text">
+                  Basic knowledge of C programming, including variables, data
+                  types, operators, control statements, loops, and functions.
+                  Familiar with arrays, pointers, and simple memory management.
+                  Able to write and debug small programs and implement
+                  logic-based problem-solving techniques.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resume -->
+      <div
+        id="resume"
+        style="background-color: #58a0c8"
+        class="text-light collapse show"
+      >
+        <h1 class="display-4 text-center pt-4">RESUME</h1>
+        <hr class="bg-danger border-2 border-top border-danger my-4" />
+        <h3 class="fs-2 pl-5"><u style="color: #333">OBJECTIVE</u></h3>
+
+        <p class="lead text-justify p-4">
+          Eager and motivated student with a strong desire to learn and grow in
+          a professional setting. Demonstrates a proactive attitude and a
+          commitment to developing new skills and knowledge. Possesses excellent
+          communication abilities and a willingness to collaborate with other.
+          Ready to take on challenges and contribute to team success through
+          dedication and hard work. Seeks opportunities to gain practical
+          experience and make a positive impact in a supportive environment.
+        </p>
+
+        <div class="d-flex flex-row text-center">
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">Graduation</h4>
+                <p class="card-text">
+                  Bachelor of Technology (B.Tech) in Computer Science
+                  Engineering Greater Noida Institute of Technology, Greater
+                  Noida, Uttar Pradesh OCT 2022 - Jun 2026 Percentage:- 70.77%
+                  Key Courses: Data Structures, DBMS, Operating Systems, Web
+                  Development
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">Intermediate</h4>
+                <p class="card-text">
+                  Senior Secondary (12th), CBSE Board DAV Public School,
+                  Rajrappa Project 2020 - 2021 Percentage: 79.6% Stream: PCM
+                  with Computer Science
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-transparent border m-3">
+              <div class="card-body">
+                <h4 class="card-title d-inline">Matriculation</h4>
+                <p class="card-text">
+                  Secondary (10th), CBSE Board DAV Public School, Rajrappa
+                  Project 2018 - 2019 Percentage: 86.6%
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- work -->
+      <div
+        id="work"
+        style="background-color: #497d74"
+        class="text-light collapse show"
+      >
+        <h1 class="display-4 text-center pt-4">WORK/ PROJECTS</h1>
+        <hr class="bg-danger border-2 border-top border-danger my-4" />
+
+        <h3 class="fs-2 pl-5">
+          <u style="color: #333"
+            >Spotify-Clone |
+            <i
+              ><a
+                href="https://github.com/Himanshumishra2224/Spotify-Clone"
+                target="_blank"
+                >REPO</a
+              ></i
+            >
+            | HTML, CSS
+          </u>
+        </h3>
+        <p class="lead text-justify p-5">
+          Created a visually appealing front-end Spotify clone replicating the
+          music streaming platform's layout and design. Implemented responsive
+          sections including sidebar navigation, playlist cards, and music
+          player controls using HTML, CSS, and Font Awesome.
+        </p>
+
+        <h3 class="fs-2 pl-5">
+          <u style="color: #333"
+            >Amazon-Clone |
+            <i
+              ><a
+                href="https://github.com/Himanshumishra2224/Amazon-Clone"
+                target="_blank"
+                >REPO</a
+              ></i
+            >
+            | HTML, CSS
+          </u>
+        </h3>
+        <p class="lead text-justify p-5">
+          Built a responsive front-end Amazon clone using HTML and CSS,
+          replicating key UI components such as navigation bar, search bar,
+          product display grid, and footer. Designed with a focus on layout,
+          styling, and user interface consistency.
+        </p>
+
+        <h3 class="fs-2 pl-5">
+          <u style="color: #333"
+            >Employee-Management-System|
+            <i
+              ><a
+                href="https://github.com/Himanshumishra2224/Employee-Management-System"
+                target="_blank"
+                >REPO</a
+              ></i
+            >
+            | Python,  MySQL
+          </u>
+        </h3>
+        <p class="lead text-justify p-5">
+          Developed a GUI-based application to register, authenticate, view, and
+          delete employee records using Python Tkinter . Integrated MySQL for
+          backend data storage, including user authentication and CRUD
+          operations.
+        </p>
+      </div>
+
+      <!-- contact -->
+      <div
+        id="contact"
+        style="background-color: #71bbb2"
+        class="text-light collapse show"
+      >
+        <h1 class="display-4 text-center pt-4">CONTACT</h1>
+        <hr class="bg-danger border-2 border-top border-danger my-4" />
+        <p class="lead text-justify p-5">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dolorem
+          expedita sed fuga maxime illo cupiditate magnam adipisci harum
+          maiores, ex atque, voluptatem, molestias veniam pariatur suscipit
+          itaque accusantium? Blanditiis eos sapiente velit iste, molestiae
+          provident numquam. Culpa ipsum corrupti quis suscipit, at tempore
+          dolorem aut asperiores, modi, aliquam porro!
+        </p>
+      </div>
+
+      <footer>
+        <h1 class="text-center text-light" style="background-color: #205072">
+          &copy;Himanshu MISHRA 2025-26
+        </h1>
+      </footer>
+    </div>
+    <!--code end-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $(".port-div").click(function () {
+        $(".collapse").collapse("hide");
+      });
+    </script>
+  </body>
+</html>
